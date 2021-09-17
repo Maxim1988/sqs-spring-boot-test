@@ -1,0 +1,13 @@
+server:
+  port: 9001
+
+cloud:
+  aws:
+    region:
+      static: us-east-1
+      auto: false
+    credentials:
+      access-key: AKIA5WAW2ALULVKDMBI7
+      secret-key: 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
+    end-point:
+      uri: https://sqs.us-east-1.amazonaws.com/940645679848/test-queue
